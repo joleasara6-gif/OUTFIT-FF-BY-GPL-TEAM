@@ -47,7 +47,7 @@ def filter_valid_ids(items):
 
 def create_composite_with_background(data):
     # Load background
-    background_url = "https://iili.io/KfpmAmP.png"
+    background_url = "https://iili.io/39iE4rF.jpg"
     try:
         response = session.get(background_url, timeout=10, headers=HEADERS)
         bg = Image.open(BytesIO(response.content)).convert("RGBA")
@@ -151,4 +151,5 @@ def render():
 if __name__ == "__main__":
 
     app.run()
+
 
