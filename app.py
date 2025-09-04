@@ -16,7 +16,7 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (compatible; MyBot/1.0)',
 }
 
-ICON_URL = "https://ch9ayfa-100.vercel.app/freefire/icons/{}.png"
+ICON_URL = "https://www.dl.cdn.freefireofficial.com/icons/{}.png"
 
 def is_valid_key(key):
     return key in API_KEYS and API_KEYS[key] > 0
@@ -151,3 +151,4 @@ def render():
 if __name__ == "__main__":
 
     app.run()
+
